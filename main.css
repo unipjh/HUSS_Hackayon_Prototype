@@ -1,0 +1,115 @@
+/* main.css (버튼 스타일 제거 버전) */
+
+/* --- 공통 스타일 --- */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif; /* 폰트 일관성 유지 */
+}
+
+/* --- 페이지 1 (URL 입력) 스타일 --- */
+.v1_7 {
+  width: 100%; /* 너비를 100%로 변경하여 Streamlit에 맞춤 */
+  max-width: 781px; /* 최대 너비 설정 */
+  height: 64px;
+  background: rgba(255,255,255,1);
+  border: 2px solid rgba(0,0,0,1);
+  border-radius: 30px;
+  margin: 20px auto; /* 중앙 정렬 */
+}
+.v1_11 { /* 정보 수용 신호등 */
+  width: 100%;
+  color: rgba(0,0,0,1);
+  font-weight: Regular;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.v1_12 { /* info receptive traffic light */
+  width: 100%;
+  color: rgba(0,0,0,1);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: Regular;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* --- 페이지 2 (분석 중) 스타일 --- */
+.v3_63 { /* 텍스트... */
+  width: 912px;
+  color: rgba(0,0,0,1);
+  font-size: 24px;
+}
+.v3_64 { /* 타이틀... */
+  width: 100%;
+  color: rgba(0,0,0,1);
+  font-weight: Bold;
+  font-size: 48px;
+}
+
+/* --- 페이지 3 (분석 완료) 스타일 --- */
+.v9_18 { /* 신뢰도 등급 텍스트 */
+  width: 100%;
+  color: rgba(0,0,0,1);
+  font-weight: Bold;
+  font-size: 48px;
+  text-align: left;
+}
+.v9_21 { /* 노란색 대각선 장식 */
+  width: 315px;
+  height: 741px;
+  background: rgba(250,255,0,0.66);
+  opacity: 0.8;
+  position: absolute;
+  top: 222px;
+  left: 871px;
+  transform: rotate(-45deg);
+}
+
+/* --- 페이지 4 (상세 결과) 스타일 --- */
+.v17_102 { /* 최종 분석 결과 타이틀 */
+  width: 100%;
+  color: rgba(0,0,0,1);
+  font-weight: Bold;
+  font-size: 48px;
+}
+.v17_106 { /* 분석 요약 박스 */
+  width: 100%;
+  background: rgba(255,249,166,0.53);
+  border: 2px solid rgba(239,223,0,1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.v17_107 { /* 상세 분석 박스 */
+  width: 100%;
+  background: rgba(255,249,166,0.53);
+  border: 2px solid rgba(239,223,0,1);
+  border-radius: 10px;
+  padding: 20px;
+}
+.v17_110 { /* 핵심 지표 배경 */
+  background: rgba(229,227,227,0.4);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.v17_117 { /* A등급 텍스트 */
+  color: rgba(67,183,69,1);
+  font-size: 18px;
+  font-weight: bold;
+}
+.v17_111 { /* B등급 텍스트 */
+  color: rgba(241,169,0,1);
+  font-size: 18px;
+  font-weight: bold;
+}
+.v17_112 { /* C등급 텍스트 */
+  color: rgba(241,36,0,1);
+  font-size: 18px;
+  font-weight: bold;
+}
